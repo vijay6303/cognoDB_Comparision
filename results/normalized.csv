@@ -1,0 +1,9 @@
+source_file,workload,hops,userId,successfulQueries,failedQueries,averageMicros,minMicros,p50Micros,p95Micros,maxMicros,readerThreads,writerThreads,totalOperations,successfulOperations,failedOperations,elapsedSeconds,throughput
+aggregation.csv,aggregation_user_count,0,0,50,0,856829.82,743206,788753,1264520,1433474,,,,,,,
+aggregation.csv,aggregation_relationship_count,0,0,50,0,892919.50,747975,920808,923273,923901,,,,,,,
+aggregation.csv,aggregation_top_degrees,0,0,50,0,1333252.98,1163709,1331120,1395107,2252735,,,,,,,
+concurrent_read_write.csv,,,,,,813713.762,736714,748950,1198380,2533065,4,1,500,500,0,85.235,5.866
+point_lookup.csv,point_lookup,0,1,100,0,829993.31,763455,813331,921602,1320691,,,,,,,
+traversal.csv,traversal,1,1,100,0,847999.45,765535,776877,1226192,1352736,,,,,,,
+traversal.csv,traversal,2,1,100,0,850505.71,766170,797176,1090261,1517829,,,,,,,
+traversal.csv,traversal,3,1,100,0,852595.37,775067,795984,965905,1635845,,,,,,,

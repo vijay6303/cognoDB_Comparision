@@ -1,0 +1,4 @@
+workload,hops,userId,successfulQueries,failedQueries,averageMicros,minMicros,p50Micros,p95Micros,maxMicros
+traversal,1,1,100,0,847999.45,765535,776877,1226192,1352736
+traversal,2,1,100,0,850505.71,766170,797176,1090261,1517829
+traversal,3,1,100,0,852595.37,775067,795984,965905,1635845

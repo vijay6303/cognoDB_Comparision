@@ -1,0 +1,2 @@
+workload,hops,userId,successfulQueries,failedQueries,averageMicros,minMicros,p50Micros,p95Micros,maxMicros
+point_lookup,0,1,100,0,829993.31,763455,813331,921602,1320691

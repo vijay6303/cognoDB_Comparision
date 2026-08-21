@@ -1,0 +1,2 @@
+readerThreads,writerThreads,totalOperations,successfulOperations,failedOperations,elapsedSeconds,throughput,averageMicros,minMicros,p50Micros,p95Micros,maxMicros
+4,1,500,500,0,85.235,5.866,813713.762,736714,748950,1198380,2533065

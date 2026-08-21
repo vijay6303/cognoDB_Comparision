@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="80" y="42" font-family="sans-serif" font-size="24" fill="#17202a">p95 latency by result row</text>
+<line x1="80" y1="440" x2="920" y2="440" stroke="#17202a"/>
+<rect x="80" y="113.7" width="101" height="326.3" fill="#d45d3d"/>
+<text x="130.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 130.5,458)">aggregation.csv</text>
+<rect x="185" y="201.8" width="101" height="238.2" fill="#d45d3d"/>
+<text x="235.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 235.5,458)">aggregation.csv</text>
+<rect x="290" y="80.0" width="101" height="360.0" fill="#d45d3d"/>
+<text x="340.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 340.5,458)">aggregation.csv</text>
+<rect x="395" y="130.8" width="101" height="309.2" fill="#d45d3d"/>
+<text x="445.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 445.5,458)">concurrent_read_write.csv</text>
+<rect x="500" y="202.2" width="101" height="237.8" fill="#d45d3d"/>
+<text x="550.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 550.5,458)">point_lookup.csv</text>
+<rect x="605" y="123.6" width="101" height="316.4" fill="#d45d3d"/>
+<text x="655.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 655.5,458)">traversal.csv</text>
+<rect x="710" y="158.7" width="101" height="281.3" fill="#d45d3d"/>
+<text x="760.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 760.5,458)">traversal.csv</text>
+<rect x="815" y="190.8" width="101" height="249.2" fill="#d45d3d"/>
+<text x="865.5" y="458" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 865.5,458)">traversal.csv</text>
+</svg>

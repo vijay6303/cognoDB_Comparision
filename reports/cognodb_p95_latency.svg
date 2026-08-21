@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="90" y="42" font-family="sans-serif" font-size="24" fill="#17202a">CognoDB p95 latency</text>
+<line x1="90" y1="470" x2="1010" y2="470" stroke="#17202a"/>
+<rect x="90" y="136.0" width="107" height="334.0" fill="#d45d3d"/>
+<text x="143.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 143.5,488)">traversal</text>
+<rect x="205" y="173.0" width="107" height="297.0" fill="#d45d3d"/>
+<text x="258.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 258.5,488)">traversal</text>
+<rect x="320" y="206.9" width="107" height="263.1" fill="#d45d3d"/>
+<text x="373.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 373.5,488)">traversal</text>
+<rect x="435" y="219.0" width="107" height="251.0" fill="#d45d3d"/>
+<text x="488.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 488.5,488)">point_lookup</text>
+<rect x="550" y="125.6" width="107" height="344.4" fill="#d45d3d"/>
+<text x="603.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 603.5,488)">aggregation_user_count</text>
+<rect x="665" y="218.5" width="107" height="251.5" fill="#d45d3d"/>
+<text x="718.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 718.5,488)">aggregation_relationship_count</text>
+<rect x="780" y="90.0" width="107" height="380.0" fill="#d45d3d"/>
+<text x="833.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 833.5,488)">aggregation_top_degrees</text>
+<rect x="895" y="143.6" width="107" height="326.4" fill="#d45d3d"/>
+<text x="948.5" y="488" text-anchor="middle" font-family="sans-serif" font-size="10" transform="rotate(45 948.5,488)">concurrent_read_write</text>
+</svg>

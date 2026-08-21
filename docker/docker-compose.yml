@@ -1,0 +1,44 @@
+services:
+
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: benchmark-neo4j
+    ports:
+      - "7474:7474"
+      - "17687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/benchmark123
+    volumes:
+      - neo4j_data:/data
+
+  memgraph:
+    image: memgraph/memgraph-platform:latest
+    container_name: benchmark-memgraph
+    ports:
+      - "17688:7687"
+      - "7444:7444"
+      - "3001:3000"
+
+  falkordb:
+    image: falkordb/falkordb:latest
+    container_name: benchmark-falkordb
+    ports:
+      - "6379:6379"
+      - "3002:3000"
+
+  arcadedb:
+    image: arcadedata/arcadedb:26.5.1
+    container_name: benchmark-arcadedb
+    ports:
+      - "2480:2480"
+      - "2424:2424"
+      - "7689:7687"
+    environment:
+      JAVA_OPTS: >-
+        -Darcadedb.server.rootPassword=benchmark123
+        -Darcadedb.server.plugins=Bolt:com.arcadedb.bolt.BoltProtocolPlugin
+        -Darcadedb.server.defaultDatabases=benchmark[root]
+        -Darcadedb.profile=low-ram
+
+volumes:
+  neo4j_data:

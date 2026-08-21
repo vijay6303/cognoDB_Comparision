@@ -1,0 +1,7 @@
+metric,value,unit
+nodes,91489,count
+relationships,200000,count
+load_time,11449.31,seconds
+node_throughput,7.991,nodes/sec
+relationship_throughput,17.468,relationships/sec
+load_batch_size,500,relationships/batch

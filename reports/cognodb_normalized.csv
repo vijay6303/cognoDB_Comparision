@@ -1,0 +1,9 @@
+platform,workload,hops,iterations,failures,p50_ms,p95_ms
+CognoDB,traversal,1,100,0,776.877,1226.192
+CognoDB,traversal,2,100,0,797.176,1090.261
+CognoDB,traversal,3,100,0,795.984,965.905
+CognoDB,point_lookup,0,100,0,813.331,921.602
+CognoDB,aggregation_user_count,0,50,0,788.753,1264.520
+CognoDB,aggregation_relationship_count,0,50,0,920.808,923.273
+CognoDB,aggregation_top_degrees,0,50,0,1331.120,1395.107
+CognoDB,concurrent_read_write,,500,0,748.950,1198.380

@@ -1,0 +1,4 @@
+workload,hops,userId,successfulQueries,failedQueries,averageMicros,minMicros,p50Micros,p95Micros,maxMicros
+aggregation_user_count,0,0,50,0,856829.82,743206,788753,1264520,1433474
+aggregation_relationship_count,0,0,50,0,892919.50,747975,920808,923273,923901
+aggregation_top_degrees,0,0,50,0,1333252.98,1163709,1331120,1395107,2252735
