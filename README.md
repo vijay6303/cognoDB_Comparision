@@ -217,14 +217,3 @@ Generate them with:
 ```powershell
 python scripts/build_cognodb_report.py
 ```
-
-## Cleanup before publishing
-
-Remove local-only artifacts before committing:
-
-```powershell
-docker compose -f docker/docker-compose.yml down -v --remove-orphans
-Remove-Item -Recurse -Force results\logs, results\comparison, results\neo4j, results\memgraph, results\arcadedb -ErrorAction SilentlyContinue
-```
-
-Keep the CognoDB root result files and the `reports/` artifacts. Do not publish `.env`, credentials, connection URIs, Docker logs, or incomplete comparison CSVs.
